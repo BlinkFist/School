@@ -23,13 +23,154 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <EmptySpace min="0" pref="600" max="32767" attributes="0"/>
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <EmptySpace min="0" pref="500" max="32767" attributes="0"/>
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jScrollPane1" pref="595" max="32767" attributes="0"/>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace pref="125" max="32767" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="226" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="108" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="jTable1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI Black" size="12" style="1"/>
+                </Property>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="5" rowCount="10">
+                    <Column editable="true" title="" type="java.lang.Object">
+                      <Data value="Mathematics"/>
+                      <Data value="Science"/>
+                      <Data value="English"/>
+                      <Data value="Filipino"/>
+                      <Data value="Christian Values"/>
+                      <Data value="ESP"/>
+                      <Data value="Music"/>
+                      <Data value="Arts"/>
+                      <Data value="Physical Education"/>
+                      <Data value="Health"/>
+                    </Column>
+                    <Column editable="true" title="1st  Quarter" type="java.lang.Object">
+                      <Data value="90"/>
+                      <Data value="85"/>
+                      <Data value="92"/>
+                      <Data value="89"/>
+                      <Data value="75"/>
+                      <Data value="90"/>
+                      <Data value="95"/>
+                      <Data value="87"/>
+                      <Data value="75"/>
+                      <Data value="90"/>
+                    </Column>
+                    <Column editable="true" title="2nd Quarter" type="java.lang.Object">
+                      <Data value="88"/>
+                      <Data value="91"/>
+                      <Data value="95"/>
+                      <Data value="90"/>
+                      <Data value="80"/>
+                      <Data value="90"/>
+                      <Data value="99"/>
+                      <Data value="86"/>
+                      <Data value="81"/>
+                      <Data value="92"/>
+                    </Column>
+                    <Column editable="true" title="3rd Quarter" type="java.lang.Object">
+                      <Data value="92"/>
+                      <Data value="88"/>
+                      <Data value="97"/>
+                      <Data value="90"/>
+                      <Data value="76"/>
+                      <Data value="93"/>
+                      <Data value="95"/>
+                      <Data value="91"/>
+                      <Data value="79"/>
+                      <Data value="100"/>
+                    </Column>
+                    <Column editable="true" title="4th Quarter" type="java.lang.Object">
+                      <Data value="95"/>
+                      <Data value="90"/>
+                      <Data value="98"/>
+                      <Data value="92"/>
+                      <Data value="81"/>
+                      <Data value="95"/>
+                      <Data value="97"/>
+                      <Data value="92"/>
+                      <Data value="90"/>
+                      <Data value=""/>
+                    </Column>
+                  </Table>
+                </Property>
+                <Property name="dropMode" type="javax.swing.DropMode" editor="org.netbeans.modules.form.editors.EnumEditor">
+                  <Value id="ON"/>
+                </Property>
+                <Property name="fillsViewportHeight" type="boolean" value="true"/>
+                <Property name="gridColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="" noResource="true"/>
+                <Property name="showGrid" type="boolean" value="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI Black" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&lt;&lt; BACK"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
 </Form>
